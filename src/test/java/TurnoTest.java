@@ -17,19 +17,16 @@ class TurnoTest {
 
     @Test
     public void deveRetornar7horas(){
-        //Turno.getInstance().setTurnoA(LocalTime.of(07,00));
         Assertions.assertEquals(LocalTime.of(07,00),Turno.getInstance().getTurnoA());
     }
 
     @Test
     public void deveRetornar13horas(){
-        //Turno.getInstance().setTurnoB(LocalTime.of(13,00));
         Assertions.assertEquals(LocalTime.of(13,00),Turno.getInstance().getTurnoB());
     }
 
     @Test
     public void deveRetornar19horas(){
-        //Turno.getInstance().setTurnoC(LocalTime.of(19,00));
         Assertions.assertEquals(LocalTime.of(19,00),Turno.getInstance().getTurnoC());
     }
 }
